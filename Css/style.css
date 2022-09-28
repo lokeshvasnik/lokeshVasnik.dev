@@ -1,0 +1,226 @@
+/*  utility css  */
+@import 'utility.css';
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* Default  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Colors  */
+:root {
+  --primary: #242c39;
+  --pure: #fff;
+  --secondary: #6958df;
+  --ternary: #515756;
+  --back: #414e5e;
+  --rare: #68da92;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--pure);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* container for all */
+.container {
+  margin: 0 auto;
+  max-width: 1152px;
+  padding: 0 0.9375rem;
+  background-color: var(--back);
+}
+
+/* <!-- header --> */
+
+header {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 86%, 0 100%);
+  position: relative;
+}
+
+header nav {
+  padding: 32px 0;
+}
+
+header nav .right li {
+  display: inline;
+  list-style: none;
+}
+
+header nav .right li a {
+  color: var(--pure);
+  font-weight: 600;
+  margin-right: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav .right li a:hover {
+  color: var(--ternary);
+  transition: all 0.3s ease;
+}
+
+/*  <!-- hero --> */
+.hero {
+  padding: 5.5rem 0;
+}
+
+.hero .left h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero .left h1 {
+  line-height: 2.5rem;
+  margin-bottom: 15px;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.154);
+}
+
+.hero .left h1 span {
+  color: var(--rare);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.154);
+}
+
+.hero .right img {
+  width: 40%;
+  border-radius: 100%;
+}
+
+/* socials */
+
+.fixed {
+  display: flex;
+  padding: 2rem 2rem;
+  width: 7%;
+  position: fixed;
+  top: 50%;
+  left: 0;
+}
+
+.fixed .check::after {
+  content: '';
+  display: block;
+  width: 0.125rem;
+  height: 100vh;
+  margin: 0px auto;
+  background-color: var(--pure);
+}
+
+.fixed .check li {
+  list-style: none;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.fixed .check li i {
+  font-size: 1.5rem;
+}
+
+/* about  */
+
+section.about .container {
+  background-image: url(../Images/Polygon-1.png);
+  background-size: cover;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: 50rem 50rem;
+  padding: 6rem 0.9375rem;
+}
+
+section.about .about__box {
+  position: relative;
+  width: 60%;
+  padding: 4rem 0;
+  background-color: var(--pure);
+  border-radius: 3.0625rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 10px 21px rgba(0, 0, 0, 0.25);
+}
+
+section.about .about__box .row__1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+section.about .about__box .row__1 .svgs {
+  width: 100%;
+  margin: 0 0.5rem;
+}
+
+section.about .about__box .row__1 .svgs:hover {
+  animation: tilt-shaking 0.3s;
+  cursor: pointer;
+}
+
+/* Projects */
+
+section.projects .projects__box .grid .card {
+  cursor: pointer;
+  width: 21.5rem;
+  background-color: #112240;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  border-radius: 0.25rem;
+  padding: 2rem 1.75rem;
+  margin: 2rem 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+section.projects .projects__box .grid .card:hover {
+  translate: 0px -11px;
+  transition: all 0.3s ease-in-out;
+}
+
+section.projects .projects__box .grid .card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+section.projects .projects__box .grid .card h2:hover {
+  color: #64ffda;
+}
+
+section.projects .projects__box .grid .card p {
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
+
+section.projects .projects__box .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* contact  */
+
+section.contact .container {
+  padding: 6rem 0.9375rem;
+}
+
+section.contact .contact__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+section.contact .contact__box p {
+  font-size: 1rem;
+}
+section.contact .contact__box h5 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}

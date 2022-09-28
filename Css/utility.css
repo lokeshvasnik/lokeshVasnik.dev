@@ -1,0 +1,192 @@
+/* Default selection */
+
+::selection {
+  background: var(--ternary);
+}
+
+/* section  */
+
+section {
+  padding: 6rem 0;
+}
+
+/* flex box utilities classes */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* Buttons  */
+
+.btn {
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 2.25rem;
+}
+
+/* buttons */
+.btn-primary {
+  background-color: var(--secondary);
+  color: var(--pure);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--pure);
+  border-color: var(--pure);
+  margin: 0.75rem;
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary);
+  color: var(--dark);
+}
+
+/* gradient color */
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #64ffda;
+
+  /* Create the gradient. */
+  /* background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #5fe7d5 50%,
+    #4ee2ef 66.666%,
+    #e16541 33.333%
+  ); */
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+/* section heading */
+
+.section__heading {
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.154);
+}
+
+.section__heading h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media querry */
+
+/* Desktop */
+@media (max-width: 1024px) {
+  #main__nav {
+    display: none;
+  }
+
+  .hero .left h4 {
+    font-size: 1.6rem;
+  }
+
+  .projects__box {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .check {
+    display: none;
+  }
+
+  .row__1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+/* mobile  */
+
+@media (max-width: 576px) {
+  section.contact .contact__box h5 {
+    font-size: 0.15rem;
+  }
+
+  .row__1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+/* Desktop */
+
+/* Mobile */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/* Laptop */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
