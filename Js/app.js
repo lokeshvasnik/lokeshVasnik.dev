@@ -61,3 +61,5 @@ links.forEach((el) => {
     el.classList.toggle('fa-bounce');
   });
 });
+
+// jQuerry loader
