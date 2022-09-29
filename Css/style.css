@@ -169,7 +169,6 @@ section.about .about__box .row__1 .svgs:hover {
 
 section.projects .projects__box .grid .card {
   cursor: pointer;
-  width: 21.5rem;
   background-color: #112240;
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
   border-radius: 0.25rem;
