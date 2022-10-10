@@ -63,3 +63,16 @@ links.forEach((el) => {
 });
 
 // jQuerry loader
+
+let hamburger = document.querySelector('.hamburger');
+
+let close = document.querySelector('.times');
+
+let mobileNav = document.querySelector('.mobile__nav');
+
+hamburger.addEventListener('click', () => {
+  mobileNav.classList.add('open');
+});
+close.addEventListener('click', () => {
+  mobileNav.classList.remove('open');
+});

@@ -91,7 +91,7 @@ header nav .right li a:hover {
 }
 
 .hero .right img {
-  width: 40%;
+  width: 45%;
   border-radius: 100%;
 }
 
@@ -169,7 +169,6 @@ section.about .about__box .row__1 .svgs:hover {
 
 section.projects .projects__box .grid .card {
   cursor: pointer;
-  width: 21.5rem;
   background-color: #112240;
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
   border-radius: 0.25rem;
@@ -223,4 +222,62 @@ section.contact .contact__box p {
 section.contact .contact__box h5 {
   font-size: 2rem;
   margin: 2rem 0;
+}
+
+/* Hamburger */
+
+/* Hamburger */
+
+.site__main__wrapper {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  z-index: 111;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 114;
+  background: var(--pure);
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  padding-top: 5rem;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.times {
+  position: fixed;
+  top: 1.875rem;
+  right: 1.875rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.mobile__nav ul li {
+  margin-top: 0.75rem;
+}
+
+.mobile__nav ul li a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1.875rem;
+}
+
+.open {
+  transform: translateX(0);
 }
