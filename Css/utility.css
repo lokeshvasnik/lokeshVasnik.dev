@@ -127,6 +127,10 @@ section {
     display: none;
   }
 
+  .hamburger {
+    display: block !important;
+  }
+
   .hero .left h4 {
     font-size: 1.6rem;
   }

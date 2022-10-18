@@ -15,221 +15,192 @@
 
 <body>
 
-    <!-- header -->
+    <!-- Start  -->
+    <div class="site__main__wrapper">
+        <!-- header -->
+        <button class="hamburger">
+            <img src="Images/hamburger.png" alt="">
+        </button>
 
-    <header>
-        <div class="container">
-            <nav id="main__nav" class="flex items-center justify-between">
-                <div class="left">
-                    <h2>Lokesh.</h2>
-                </div>
-                <div class="right nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </div>
-            </nav>
+        <div class="mobile__nav">
+            <button class="times">
+                <img src="Images/close.svg" alt="">
+            </button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main__nav" class="flex items-center justify-between">
+                    <div class="left">
+                        <h2>Lokesh.</h2>
+                    </div>
+                    <div class="right nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </div>
+                </nav>
 
-            <!-- hero -->
+                <!-- hero -->
 
-            <div class="hero flex items-center justify-between">
-                <div class="left flex-1 left-anim ">
-                    <h4>Hi, my name is Lokesh</h4>
-                    <h1>I'm a <span class="gradient-text">Front-End Developer</spangradient-text>
-                    </h1>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 left-anim ">
+                        <h4>Hi, my name is Lokesh</h4>
+                        <h1>I'm a Front-End Developer
+                        </h1>
 
-                    <button class="btn btn-primary">My Work</button>
-                </div>
-                <div class="right flex-1 flex justify-center right-anim">
-                    <img src="Images/boss.png" alt="">
+                        <button class="btn btn-primary">My Work</button>
+                    </div>
+                    <div class="right flex-1 flex justify-center right-anim">
+                        <img src="Images/boss1.png" alt="">
+                    </div>
                 </div>
             </div>
+        </header>
+
+        <!-- side socials -->
+
+        <div class="fixed">
+            <ul class="check">
+                <li><i class="fa-brands fa-linkedin-in "></i></li>
+                <li><i class="fa-brands fa-twitter "></i></li>
+                <li><i class="fa-brands fa-instagram "></i></li>
+                <li><i class="fa-brands fa-facebook "></i></li>
+            </ul>
         </div>
-    </header>
 
-    <!-- side socials -->
+        <!-- what i do -->
 
-    <div class="fixed">
-        <ul class="check">
-            <li><i class="fa-brands fa-linkedin-in "></i></li>
-            <li><i class="fa-brands fa-twitter "></i></li>
-            <li><i class="fa-brands fa-instagram "></i></li>
-            <li><i class="fa-brands fa-facebook "></i></li>
-        </ul>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section__heading">
+                    <h1>What I do &#8594</h1>
+                </div>
+                <div class="about__box flex ">
+                    <div class="row__1">
+                        <img class="svgs" src="Images/icons8-html-5.svg" alt="">
+                        <img class="svgs" src="Images/icons8-css3.svg" alt="">
+                        <img class="svgs" src="Images/icons8-bootstrap.svg" alt="">
+                        <img class="svgs" src="Images/icons8-javascript.svg" alt="">
+                    </div>
+                    <div class="row__1">
+                        <img class="svgs" src="Images/icons8-react.svg" alt="">
+                        <img class="svgs" src="Images/icons8-tailwind-css.svg" alt="">
+                        <img class="svgs" src="Images/icons8-node-js.svg" alt="">
+                        <img class="svgs" src="Images/icons8-figma.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section__heading">
+                    <h1>Projects &#8594</h1>
+                </div>
+                <div class="projects__box">
+                    <div class="grid">
+                        <div class="card">
+                            <div class="flex justify-between">
+                                <a target="_blank" href="https://lokeshvasnik.github.io/User-Application/"><img
+                                        src="Images/icons8-file.svg" alt=""></a>
+                                <a target="_blank" href="https://github.com/lokeshvasnik/User-Application.git">
+                                    <img src="Images/icons8-github.svg" alt="">
+                                </a>
+
+                            </div>
+                            <div>
+                                <h2>Task Keeper</h2>
+                            </div>
+                            <div>
+                                <p>A personal project that I have been working on for a while. That will
+                                    help people to keep the task.
+                                </p>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Html</p>
+                                <p>Css</p>
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="flex justify-between">
+                                <a target="_blank" href="https://lokeshvasnik.github.io/Portfolio-Website-Project-1/">
+                                    <img src="Images/icons8-file.svg" alt="website">
+                                </a>
+                                <a target="_blank"
+                                    href="https://github.com/lokeshvasnik/Portfolio-Website-Project-1.git"> <img
+                                        src="Images/icons8-github.svg" alt="github"></a>
+                            </div>
+                            <div>
+                                <h2>Portfolio Website</h2>
+                            </div>
+                            <div>
+                                <p>Built a custom Portfolio website using some web technologies fully responsive.
+                                </p>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Html</p>
+                                <p>Css</p>
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="flex justify-between">
+
+                                <a target="_blank"
+                                    href="https://lokeshvasnik.github.io/COUNTRY-DETAILS-API-PROJECT/"><img
+                                        src="Images/icons8-file.svg" alt="website"></a>
+                                <a target="_blank"
+                                    href="https://github.com/lokeshvasnik/COUNTRY-DETAILS-API-PROJECT.git"><img
+                                        src="Images/icons8-github.svg" alt="github"></a>
+
+                            </div>
+                            <div>
+                                <h2>Api Country</h2>
+                            </div>
+                            <div>
+                                <p>Build an application with the help of Rest Api. You will get to see country's capital
+                                    and flag.
+                                </p>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Html</p>
+                                <p>Css</p>
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- contact -->
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__heading">
+                    <h1>Contact &#8594</h1>
+                </div>
+                <div class="contact__box flex items-center">
+                    <p>Mumbai, India</p>
+                    <h5>lokeshvasnik1602@gmail.com</h5>
+                    <button class="btn">Say Hello</button>
+                </div>
+            </div>
+        </section>
+
+
     </div>
-
-    <!-- what i do -->
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="section__heading">
-                <h1>What I do &#8594</h1>
-            </div>
-            <div class="about__box flex ">
-                <div class="row__1">
-                    <img class="svgs" src="Images/icons8-html-5.svg" alt="">
-                    <img class="svgs" src="Images/icons8-css3.svg" alt="">
-                    <img class="svgs" src="Images/icons8-bootstrap.svg" alt="">
-                    <img class="svgs" src="Images/icons8-javascript.svg" alt="">
-                </div>
-                <div class="row__1">
-                    <img class="svgs" src="Images/icons8-react.svg" alt="">
-                    <img class="svgs" src="Images/icons8-tailwind-css.svg" alt="">
-                    <img class="svgs" src="Images/icons8-node-js.svg" alt="">
-                    <img class="svgs" src="Images/icons8-figma.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- projects -->
-
-    <section class="projects" id="projects">
-        <div class="container">
-            <div class="section__heading">
-                <h1>Projects &#8594</h1>
-            </div>
-            <div class="projects__box">
-                <div class="grid">
-                    <div class="card">
-                        <div class="flex justify-between">
-                            <img src="Images/icons8-file.svg" alt="">
-                            <img src="Images/icons8-github.svg" alt="">
-                        </div>
-                        <div>
-                            <h2>Project Number one Basic defination and what technologies you have used</h2>
-                        </div>
-                        <div>
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with
-                                Algolia
-                            </p>
-                        </div>
-                        <div class="flex justify-between">
-                            <p>Algolia</p>
-                            <p>WordPress</p>
-                            <p>Javascript</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="flex justify-between">
-                            <img src="Images/icons8-file.svg" alt="">
-                            <img src="Images/icons8-github.svg" alt="">
-                        </div>
-                        <div>
-                            <h2>Project Number one Basic defination and what technologies you have used</h2>
-                        </div>
-                        <div>
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with
-                                Algolia
-                            </p>
-                        </div>
-                        <div class="flex justify-between">
-                            <p>Algolia</p>
-                            <p>WordPress</p>
-                            <p>Javascript</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="flex justify-between">
-                            <img src="Images/icons8-file.svg" alt="">
-                            <img src="Images/icons8-github.svg" alt="">
-                        </div>
-                        <div>
-                            <h2>Project Number one Basic defination and what technologies you have used</h2>
-                        </div>
-                        <div>
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with
-                                Algolia
-                            </p>
-                        </div>
-                        <div class="flex justify-between">
-                            <p>Algolia</p>
-                            <p>WordPress</p>
-                            <p>Javascript</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="projects__box">
-                <div class="grid">
-                    <div class="card">
-                        <div class="flex justify-between">
-                            <img src="Images/icons8-file.svg" alt="">
-                            <img src="Images/icons8-github.svg" alt="">
-                        </div>
-                        <div>
-                            <h2>Project Number one Basic defination and what technologies you have used</h2>
-                        </div>
-                        <div>
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with
-                                Algolia
-                            </p>
-                        </div>
-                        <div class="flex justify-between">
-                            <p>Algolia</p>
-                            <p>WordPress</p>
-                            <p>Javascript</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="flex justify-between">
-                            <img src="Images/icons8-file.svg" alt="">
-                            <img src="Images/icons8-github.svg" alt="">
-                        </div>
-                        <div>
-                            <h2>Project Number one Basic defination and what technologies you have used</h2>
-                        </div>
-                        <div>
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with
-                                Algolia
-                            </p>
-                        </div>
-                        <div class="flex justify-between">
-                            <p>Algolia</p>
-                            <p>WordPress</p>
-                            <p>Javascript</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="flex justify-between">
-                            <img src="Images/icons8-file.svg" alt="">
-                            <img src="Images/icons8-github.svg" alt="">
-                        </div>
-                        <div>
-                            <h2>Project Number one Basic defination and what technologies you have used</h2>
-                        </div>
-                        <div>
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with
-                                Algolia
-                            </p>
-                        </div>
-                        <div class="flex justify-between">
-                            <p>Algolia</p>
-                            <p>WordPress</p>
-                            <p>Javascript</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- contact -->
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section__heading">
-                <h1>Contact &#8594</h1>
-            </div>
-            <div class="contact__box flex items-center">
-                <p>Mumbai, India</p>
-                <h5>lokeshvasnik1602@gmail.com</h5>
-                <button class="btn">Say Hello</button>
-            </div>
-        </div>
-    </section>
-
 
     <!-- gsap animation js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
