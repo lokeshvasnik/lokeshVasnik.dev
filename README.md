@@ -10,4 +10,4 @@
 
 ## SOME SNAP-SHOT
 
-![alt text](https://github.com/lokeshvasnik/lokeshVasnik.dev/blob/main/screenshots/laptop.png)
+![alt text](https://github.com/lokeshvasnik/lokeshVasnik.dev/blob/main/screenshots/projects.png)
