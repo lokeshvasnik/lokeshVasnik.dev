@@ -6,7 +6,7 @@
 
 ## SOME SNAP-SHOT
 
-![alt text](https://github.com/lokeshvasnik/lokeshVasnik.dev/blob/main/screenshots/Mobile.png)
+![alt text](https://github.com/lokeshvasnik/lokeshVasnik.dev/blob/main/screenshots/laptop.png)
 
 ## SOME SNAP-SHOT
 
