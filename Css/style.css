@@ -246,6 +246,9 @@ section.contact .contact__box h5 {
   display: none;
 }
 
+.hamburger img {
+  width: 1.5625rem;
+}
 .mobile__nav {
   position: fixed;
   top: 0;
